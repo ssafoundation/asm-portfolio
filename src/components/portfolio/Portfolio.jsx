@@ -47,7 +47,7 @@ const Portfolio = () => {
         <div className="portfolio-padding width-wrap">
           <div className="portfolio-title">
             <h2>
-              My <span>Portfolio</span>
+              My <span>Works</span>
             </h2>
           </div>
           <div className="portfolio-area">

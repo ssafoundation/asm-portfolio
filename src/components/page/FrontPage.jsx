@@ -6,6 +6,7 @@ import MyPic from "./img/myPic.png";
 const resumeDownload = [
   "https://drive.google.com/file/d/17W8qik4ssh0PWtbGPQHhmCbL6Dqua_6h/view?usp=sharing",
 ];
+// const facebook = ["https://web.facebook.com/akhtar.monyr.52/"];
 const FrontPage = () => {
   return (
     <div className="dashboard-body">
@@ -110,42 +111,68 @@ const FrontPage = () => {
                 </h3>
                 {/* <h3>I am A Frontend Developer</h3> */}
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Debitis quae culpa eligendi tempore non illum odio in omnis
-                  quasi hic.
+                  My experience in web design and development, coding languages
+                  HTML, CSS, JavaScript, PHP. Framework WordPress & react js,
+                  And Bootstrap Each Website I Make Will Be Responsive And Will
+                  Load Fast.
                 </p>
               </div>
               <div className="hero-social">
                 <span>
-                  <Link to="/">
+                  <Link
+                    to={{
+                      pathname: "https://web.facebook.com/akhtar.monyr.52/",
+                    }}
+                    target="_blank"
+                  >
                     <i className="fab fa-facebook"></i>
                   </Link>
                 </span>
                 <span>
-                  <Link to="/">
+                  <Link
+                    to={{
+                      pathname: "https://twitter.com/akhtar01727",
+                    }}
+                    target="_blank"
+                  >
                     <i className="fab fa-twitter"></i>
                   </Link>
                 </span>
 
                 <span>
-                  <Link to="/">
+                  <Link
+                    to={{
+                      pathname:
+                        "https://www.linkedin.com/in/md-akhtaruzzaman-a1925a1ba/",
+                    }}
+                    target="_blank"
+                  >
                     <i className="fab fa-linkedin-in    "></i>
                   </Link>
                 </span>
                 <span>
-                  <Link to="/">
+                  <Link
+                    to={{
+                      pathname: "https://github.com/ssafoundation",
+                    }}
+                    target="_blank"
+                  >
                     <i className="fab fa-github    "></i>
                   </Link>
                 </span>
                 <span>
-                  <Link to="/">
+                  <Link
+                    to={{
+                      pathname: "https://codepen.io/akhtar01727",
+                    }}
+                    target="_blank"
+                  >
                     <i className="fab fa-codepen    "></i>
                   </Link>
                 </span>
               </div>
               <div className="resume-download">
                 <h5>
-                  
                   <Link to={{ pathname: resumeDownload }} target="_blank">
                     Resume
                   </Link>
