@@ -1,0 +1,27 @@
+.social-link-navbar {
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    bottom: 0;
+}
+
+.social-link-navbar a {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.social-link-navbar a i {
+    color: #fff;
+}
+
+.social-link-navbar:after {
+    width: 3px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    background: #fff;
+    left: 25%;
+    bottom: 0;
+}

@@ -1,0 +1,26 @@
+.portfolio-main-wrap img {
+    width: 100%;
+    height: 310px;
+}
+
+.my-single-work {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 3px #ab00ff26;
+    padding: 15px;
+}
+
+.my-single-work span {
+    display: inline-block;
+    background: #ab00ff;
+    margin: 2px;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+
+.my-single-work a h5 {
+    padding: 14px 0;
+    margin-bottom: 0;
+}
