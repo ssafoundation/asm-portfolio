@@ -1,6 +1,7 @@
 import React from "react";
 import Particles from "react-particles-js";
 import { Link } from "react-router-dom";
+import { BounceLoader } from 'react-spinners';
 import Typed from "react-typed";
 import MyPic from "./img/myPic.png";
 const resumeDownload = [
@@ -10,6 +11,9 @@ const resumeDownload = [
 const FrontPage = () => {
   return (
     <div className="dashboard-body">
+      <div className="preloader-wrap">
+        <BounceLoader loading />
+      </div>
       <Particles
         params={{
           particles: {

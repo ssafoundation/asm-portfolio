@@ -8,7 +8,7 @@
 
 .cv-body {
     border-radius: 10px;
-    background: #f0f8ff99;
+    background: #f0f8ff70;
     padding: 30px;
     height: 100%;
 }
@@ -87,6 +87,7 @@ i {
 
 .profile-content h4 {
     font-size: 20px;
+    margin-bottom: 0;
 }
 
 .profile-content i {
@@ -96,7 +97,6 @@ i {
     background: #71bcff;
     line-height: 40px;
     border-radius: 10px;
-    margin-bottom: 15px;
     color: #fff;
 }
 
@@ -169,6 +169,7 @@ i {
     font-size: 24px;
     line-height: 35px;
     word-spacing: 4px;
+    color: #fff;
 }
 
 .skillbar-title {
@@ -188,10 +189,11 @@ i {
 }
 
 .contact-mobile {
-    box-shadow: 0px 0px 5px 0px rgb(255 255 255 / 45%);
-    padding: 7px 0px;
+    box-shadow: 0px 0px 5px 0px rgb(171 0 255 / 30%);
+    padding: 12px 15px;
     margin-bottom: 15px;
     border-radius: 10px;
+    background: #ffffff82;
 }
 
 .about-area {
@@ -204,4 +206,48 @@ i {
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+@media only screen and (max-width: 1199px) {
+    .about-content p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .about-title h2 {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+
+    .profile-content h4 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .profile-content i {
+        width: 35px;
+        height: 35px;
+        line-height: 34px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .profile-content h4 {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .contact-mobile span {
+        margin-right: 10px;
+    }
+
+    .profile-content i {
+        width: 30px;
+        height: 30px;
+        line-height: 29px;
+        font-size: 14px;
+    }
 }

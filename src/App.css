@@ -89,7 +89,7 @@ form.Login-form-wrap input {
 
   .about-content p {
     font-size: 16px !important;
-    line-height: 24px !important;
+    line-height: 30px !important;
 
   }
 }
@@ -103,3 +103,33 @@ form.Login-form-wrap input {
 }
 
 @media only screen and (max-width: 767px) {}
+
+
+.css-3fvcat {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: aliceblue !important;
+  left: 45%;
+  top: 45%;
+  z-index: 1;
+}
+
+.css-14hgwh {
+
+  background-color: #ab00ff !important;
+
+}
+
+.css-1fymig2 {
+  background-color: #f5f5f5 !important;
+}
+
+.preloader-wrap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 99;
+  background: #bbc;
+  display: none;
+}
